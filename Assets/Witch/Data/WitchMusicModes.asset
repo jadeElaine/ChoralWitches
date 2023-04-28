@@ -1,0 +1,791 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafaf835a7d6abd4c9f9c9e05af05424, type: 3}
+  m_Name: WitchMusicModes
+  m_EditorClassIdentifier: 
+  temperaments:
+  - semitoneCount: 12
+    noteLetters: 7
+    rootLetterSpacing: C-D-EF-G-A-B
+  modes:
+  - name: Perfect
+    tempermentIndex: 0
+    tempermentSpacing: 1--++4+5--++
+    uiPlacement: {x: 0, y: 3}
+    chordGroups: []
+  - name: Pentatonic Major
+    tempermentIndex: 0
+    tempermentSpacing: 1+2+3-+5+6--
+    uiPlacement: {x: 1, y: 1}
+    chordGroups: []
+  - name: Blues Major
+    tempermentIndex: 0
+    tempermentSpacing: 1+2-+4+5+6--
+    uiPlacement: {x: 1, y: 2}
+    chordGroups: []
+  - name: Pentatonic Suspended
+    tempermentIndex: 0
+    tempermentSpacing: 1+2--4+5-+7-
+    uiPlacement: {x: 1, y: 3}
+    chordGroups: []
+  - name: Pentatonic Minor
+    tempermentIndex: 0
+    tempermentSpacing: 1-+3-4+5-+7-
+    uiPlacement: {x: 1, y: 4}
+    chordGroups: []
+  - name: Blues Minor
+    tempermentIndex: 0
+    tempermentSpacing: 1-+3-4-+6-7-
+    uiPlacement: {x: 1, y: 5}
+    chordGroups: []
+  - name: Lydian
+    tempermentIndex: 0
+    tempermentSpacing: 1+2+3+45+6+7
+    uiPlacement: {x: 2, y: 0}
+    chordGroups: []
+  - name: Major
+    tempermentIndex: 0
+    tempermentSpacing: 1+2+34+5+6+7
+    uiPlacement: {x: 2, y: 1}
+    chordGroups:
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 2
+        sixthComposition: 7
+        modulationComposition: 34
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 2
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 2
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 2
+        sixthComposition: 0
+        modulationComposition: 34
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 2
+        sixthComposition: 0
+        modulationComposition: 34
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 2
+        sixthComposition: 0
+        modulationComposition: 34
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 0
+      unmodified:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+  - name: Mixolydian
+    tempermentIndex: 0
+    tempermentSpacing: 1+2+34+5+67-
+    uiPlacement: {x: 2, y: 2}
+    chordGroups: []
+  - name: Dorian
+    tempermentIndex: 0
+    tempermentSpacing: 1+23-4+5+67-
+    uiPlacement: {x: 2, y: 3}
+    chordGroups: []
+  - name: Minor
+    tempermentIndex: 0
+    tempermentSpacing: 1+23-4+56-7-
+    uiPlacement: {x: 2, y: 4}
+    chordGroups:
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 2
+        sixthComposition: 7
+        modulationComposition: 0
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 1
+      unmodified:
+        baseComposition: 2
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 2
+        sixthComposition: 0
+        modulationComposition: 34
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 2
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 2
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 2
+        sixthComposition: 0
+        modulationComposition: 34
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+    - active: 1
+      unmodified:
+        baseComposition: 1
+        seventhComposition: 0
+        sixthComposition: 7
+        modulationComposition: 34
+        semitoneOffset: 0
+      aux:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      auxAndLowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      lowered:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      raised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      loweredAndDoubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+      doubleRaised:
+        baseComposition: 0
+        seventhComposition: 0
+        sixthComposition: 0
+        modulationComposition: 0
+        semitoneOffset: 0
+  - name: Phrygian
+    tempermentIndex: 0
+    tempermentSpacing: 12-3-4+56-7-
+    uiPlacement: {x: 2, y: 5}
+    chordGroups: []
+  - name: Locrian
+    tempermentIndex: 0
+    tempermentSpacing: 12-3-45-6-7-
+    uiPlacement: {x: 2, y: 6}
+    chordGroups: []
+  - name: Dorian Dominant
+    tempermentIndex: 0
+    tempermentSpacing: 1+2+34+5+67-
+    uiPlacement: {x: 3, y: 3}
+    chordGroups: []
+  - name: Aeolian Dominant
+    tempermentIndex: 0
+    tempermentSpacing: 1+2+34+56-7-
+    uiPlacement: {x: 3, y: 4}
+    chordGroups: []
+  - name: Phrygian Dominant
+    tempermentIndex: 0
+    tempermentSpacing: 12-+34+56-7-
+    uiPlacement: {x: 3, y: 5}
+    chordGroups: []
+  - name: Super Locrian
+    tempermentIndex: 0
+    tempermentSpacing: 12-34-5-6-7-
+    uiPlacement: {x: 3, y: 6}
+    chordGroups: []
+  defaultMode: Major
